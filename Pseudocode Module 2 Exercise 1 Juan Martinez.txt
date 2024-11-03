@@ -1,0 +1,26 @@
+//This pseudocode is intended to compute the capacity 
+// of a refrigerator in cubic feet and module name
+
+START
+
+SET moduleName
+SET interiorHeight
+SET interiorWidth
+SET interiorDepth
+SET volumeInCubicFeet=1728
+SET capacityInCubitFeet
+
+INPUT moduleName
+INPUT interiorHeight
+INPUT interiorWidth
+INPUT interiorDepth
+
+COMPUTE  capacityInCubicFeet = (interiorHeight * interiorWidth * interiorDepth)/volumeInCubicFeet
+
+PRINT moduleName
+PRINT capacityInCubicFeet
+
+STOP
+
+
+

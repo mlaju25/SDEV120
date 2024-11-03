@@ -1,0 +1,22 @@
+//This pseudocode is intended to print 
+// the checking account fee for each time the
+// account is overdrawn.
+
+START
+
+SET accountBalance
+SET overDrawnFee
+SET numberOfTimesTheAccountWasOverDrawn
+SET newAccountBalalnce
+
+INPUT accountBalance
+INPUT numberOfTimesAccountWasOverDrawn
+
+COMPUTE overDrawFee = (accountBalance * 0.01) + (5 * numberOftimesTheAccountWasOverDrawn)
+COMPUTE newAccountBalance = accountBalance - overDrawnFee
+
+PRINT OverDrawnFee
+PRINT newAccountBalance
+PRINT "Thanks for using the program"
+
+STOP
